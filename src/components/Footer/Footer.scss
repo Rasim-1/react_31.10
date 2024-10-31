@@ -1,0 +1,25 @@
+// svg{
+//         animation-name: circle-to-square;
+//         animation-duration: 2s;
+//         animation-iteration-count: infinite;
+// }
+.footer__info{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+margin-bottom: 50px;
+
+}
+.footer__info-call{
+a{
+    text-decoration: none;
+color: black;
+margin-left: 5px;
+&:hover{
+    cursor: pointer;
+   color: gray;
+
+}
+}
+}

@@ -1,0 +1,96 @@
+.catalog {
+
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      margin-bottom: 150px;
+      @media (max-width:1200px) {
+         grid-template-columns: 1fr;
+      }
+   }
+
+   &__cards {
+      background-color: gray;
+      min-height: 500px;
+      overflow: hidden;
+      border-radius: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      &:hover {
+         
+         div {
+
+            backdrop-filter: blur(10px);
+         }
+
+      }
+
+      &:nth-child(1) {
+         background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024);
+      }
+
+      &:nth-child(2) {
+         background-image: url(https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024);
+      }
+
+      &:nth-child(3) {
+         background-image: url(https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024);
+      }
+
+      &:nth-child(4) {
+         background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024);
+      }
+
+      &:nth-child(5) {
+         background-image: url(https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024);
+      }
+
+      &:nth-child(6) {
+         background-image: url(https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024);
+      }
+
+      div {
+         height: 100%;
+         display: flex;
+         justify-content: space-between;
+         padding: 25px;
+         color: white;
+         transition: 1s;
+         button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+         }
+      }
+   }
+}
+.title{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 150px;
+
+   h2{
+      font-size: 40px;
+      font-weight: 500;
+    
+   }
+
+}
+.colo{
+
+   transition: 0.2s;
+   color: gray;
+ 
+   &:hover{
+      cursor: pointer;
+ 
+      color: #e8e5e480;
+   }
+}

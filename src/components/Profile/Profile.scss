@@ -1,0 +1,49 @@
+.profile__title{
+    margin-top: 200px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+h1{
+    font-size: 67px;
+    font-weight: 600;
+}
+}
+.profile__img{
+    display: flex;
+margin-bottom: 80px;
+
+    img{
+     margin: 10px;
+width: 630px;
+height: 520px;   
+border-radius: 30px;
+
+aspect-ratio: 1.5/1;
+    }
+
+}
+
+
+
+
+.profile__about{
+    
+    display: flex;
+    text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+h2{
+  max-width: 500px;
+}
+    button{
+
+        padding: 8px 14px;
+        border-radius: 30px;
+        background-color: #e8e5e480;
+        border: none;
+        margin-bottom: 20px;
+    }
+}
